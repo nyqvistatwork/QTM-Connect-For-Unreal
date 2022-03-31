@@ -13,4 +13,4 @@ jobs:
   timeoutInMinutes: 180
   steps:
   - checkout: devops
-  - template: azure-pipelines.yml@devops
+  - template: trigger.yml@devops
